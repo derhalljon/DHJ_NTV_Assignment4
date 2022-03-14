@@ -17,7 +17,7 @@ void main(){
   String input;
 
     while (true) {
-      print('Write a word:');
+      print('Write as many words as you like, hit enter to on an empty line to finish:');
         input = stdin.readLineSync();
     list.add(input);
 
